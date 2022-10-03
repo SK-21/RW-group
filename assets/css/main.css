@@ -14,10 +14,15 @@
     }
     .navbar-nav li {
         margin: 0px 25px 0 25px!important;
-    }
-.d-desk-hide{display:none;}
-}
+	}}
 @media (max-width:599px){
+	
+.service-sctn .aboutus_content{padding-top:40px;}
+	.service-sctn .abt-last {
+    padding-top: 0!important;
+}
+	.abt-sec .aboutus_content {
+    padding-top: 50px!important;
     .abt-sec{padding:70px 0!important;}
     .abt-sec .aboutus_content{
         padding:20px 0!important;
