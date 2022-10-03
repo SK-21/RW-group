@@ -5,7 +5,9 @@
 .service-sctn{
     background-image: url(https://html.designingmedia.com/instant-va/assets/images/services_background.jpg);
 }
-
+@media screen and (max-width: 767px){
+.choose_us-section {
+	padding-bottom: 0px!important;}}
 @media (min-width:992px){
     .bs-home .banner-section-content{margin-bottom:100px!important;}
 
