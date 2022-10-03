@@ -30,6 +30,9 @@ html {
 .d-desk-hide{display:none;}
 }
 @media (max-width:599px){
+	.banner-section .banner-section-content {
+    z-index: 1!important;
+}
     .send_message_section h2{font-size:32px;}
     .choose_us_content h6{display:none;}
     .choose_us_image h2{color:var(--e-global-color-secondary); text-align:center;    padding-bottom: 20px;}
