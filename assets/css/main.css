@@ -345,8 +345,7 @@ p{
     transition: all 0.3s ease-in-out;
 }
 .navbar-nav .nav-item a:hover{
-    color: var(--e-global-color-accent) !important;
-    background-color: transparent;
+     color: var(--e-global-color-accent) !important
 }
 .navbar-nav .nav-item .dropdown-item:hover{
     color: var(--e-global-color-white) !important;
