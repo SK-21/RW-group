@@ -7,37 +7,36 @@
     <!-- /SEO Ultimate -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <meta charset="utf-8">
+
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon.png">
     <link rel="manifest" href="./assets/images/favicon/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    <!-- Latest compiled and minified CSS -->
+    <meta name="theme-color" content="#5AC5D1">
+    <!--CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/js/bootstrap.min.js">
-    <!-- Font Awesome link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <!-- StyleSheet link CSS -->
-    <link href="assets/css/main.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
     <link href="assets/css/mediaqueries.css" rel="stylesheet" type="text/css">
     <link href="assets/css/owl.carousel.min.css" rel="stylesheet" type="text/css">
     <link href="assets/css/owl.theme.default.min.css" rel="stylesheet" type="text/css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
-<body>
+<body data-bs-target="#navbarExample">
 <div class="banner-section-outer">
     <header>
         <div class="main_header">
             <div class="container-fluid">
-                <nav class="navbar navbar-expand-lg navbar-light p-0">
+                <nav id="navbarExample" class="top-nav-collapse navbar navbar-expand-lg navbar-light fixed-top p-0" >
                     <a class="navbar-brand" href="./index.html"><figure class="mb-0"><img src="./assets/img/logo-rw.png" alt="" class="img-fluid"></figure></a>
                     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     <span class="navbar-toggler-icon"></span>
                     <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse offcanvas-collapse ml-auto" id="navbarSupportedContent">
                         <ul class="navbar-nav last_list navbar-left">
                             <li class="nav-item active">
                                 <a class="nav-link" href="./index.html">Home</a>
@@ -58,7 +57,7 @@
         </div>
     </header>
 <!-- BANNER SECTION -->
-    <section class="banner-section">
+    <section class="banner-section bs-home">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  text-center">
@@ -67,7 +66,7 @@
                     <div class="banner-section-content">
                         <h1 data-aos="fade-up">RW Group - A Global Company Innovating the Future.</h1>
                         <div class="btn_wrapper" data-aos="fade-up">
-                            <a class="text-decoration-none getstarted_btn" href="./index.html">Contact</a>
+                            <a class="text-decoration-none getstarted_btn" href="./index.html">Contact Us</a>
                             <a class="text-decoration-none aboutus_btn" href="./about.html">About Us</a>
                         </div>
                         <figure class="banner_yellow_line mb-0">
@@ -76,14 +75,9 @@
                     </div>
                 </div>
 
-                <div class='box'>
-                    <div class='wave -one'></div>
-                    <div class='wave -two'></div>
-                    <div class='wave -three'></div>
-                  </div>
  
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="float-box">
+                    <!-- <div class="float-box">
                         <ul class="floatingBoxes">
                             <li></li>
                             <li></li>
@@ -96,32 +90,26 @@
                             <li></li>
                             <li></li>
                         </ul>
-                </div>
+                </div> -->
             </div>
             <figure class="banner_yellow_icon mb-0 bg-dark">
                 <img src="./assets/images/banner_bottom_white_icon.png" alt="" class="img-fluid">
             </figure>
-            <figure class="banner_va_icon mb-0">
-                <div class="avatar"></div>
+            <!-- <figure class="banner_va_icon mb-0">
+                <img src="./assets/img/image-sm-bg2.png" alt="" class="img-fluid avtr"> -->
+                <!-- <div class="avatar"></div> -->
            
             </figure>
 
             <figure class="banner_bottom_white_icon mb-0">
                 <img src="./assets/images/banner_bottom_white_icon.png" alt="" class="img-fluid">
             </figure>
-            <figure class="banner_right_top_icon mb-0">
+            <!-- <figure class="banner_right_top_icon mb-0">
                 <img src="https://html.designingmedia.com/instant-va/assets/images/banner_right_top_transparent_icon.png" alt="" class="img-fluid">
-            </figure>
+            </figure> -->
             <figure class="banner_right_bottom_icon mb-0">
                 <img src="./assets/images/banner_right_bottom_icon.png" alt="" class="img-fluid">
-            </figure>
-                         <div class="custom-shaped">  <div class="custom-shape-divider-top-1664627686">
-                            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
-                                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
-                                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
-                            </svg>
-                        </div></div>   
+            </figure> 
           
         </div>
     </section>
@@ -396,7 +384,7 @@
                             </li> -->
                             <li>
                                 <i class="fa-sharp fa-solid fa-envelope"></i>
-                                <a href="mailto:Info@instantva.om" class="text-decoration-none">coonect@domai.com</a>
+                                <a href="mailto:Info@instantva.om" class="text-decoration-none">Info@instantva.om</a>
                             </li>
                             <li class="mb-0">
                                 <i class="fa-solid fa-location-dot location"></i>
@@ -417,7 +405,7 @@
         <figure class="mb-0"><img src="./assets/images/footer_logo.png" alt="" class="img-fluid"></figure>
     </div>
 </section>
-<!-- Latest compiled JavaScript -->
+<!--JavaScript -->
 <script src="assets/js/jquery-3.6.0.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
