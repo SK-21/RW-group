@@ -42,10 +42,16 @@
     .banner-section {
         padding: 125px 15px 0;
     }
+    .bs-service{padding: 10px 15px 0!important;}
+    .bsc-section{/* padding-top: 65px; */
+        padding-bottom: 0!important;
+       margin-bottom: 0!important;
+       padding-bottom: 85px!important;}
     .banner-section .banner-section-content {
-        padding-top: 65px;
+
+        /* padding-top: 65px; */
         padding-bottom: 65px;
-       margin-bottom: 95px;
+       /* margin-bottom: 95px; */
     }
     h1 {
         font-size: 44px;
@@ -58,7 +64,10 @@
         top: 20px;
     }
     .banner-section-outer .banner-section .banner_va_icon img{
-        width: 265px;
+        width: 77px;
+    }
+    .banner_top_white_svg{
+        position:relative;
     }
     .banner-section-outer .banner-section .banner_bottom_white_icon {
         left: 335px;
@@ -2779,6 +2788,8 @@
     .aboutus_section .aboutus_shape {
         display: none;
     }
+    .bs-service {
+        padding: 77px 15px 0!important;}
 
     .services_section {
         padding: 60px 0 30px;
@@ -3470,7 +3481,7 @@
         width: 75px;
     }
     .research_reports_content {
-        text-align: center;
+        text-align: left;
     }
     .research_reports_content h2 {
         padding-right: 0;
@@ -3502,7 +3513,7 @@
         padding: 60px 0;
     }
     .expense_invoice_content {
-        text-align: center;
+        text-align:left;
         margin-bottom: 30px;
     }
     .expense_invoice_content h2 {
@@ -3546,7 +3557,7 @@
         width: 75px;
     }
     .schedule_plan_content {
-        text-align: center;
+        text-align: left;
     }
     .schedule_plan_content h2 {
         padding-right: 0;
@@ -4333,6 +4344,7 @@
     }
     .research_reports_content h2 {
         margin-bottom: 5px;
+        margin-top: 15px;
     }
     .research_reports_content p {
         margin-bottom: 8px;
@@ -4398,6 +4410,7 @@
     }
     .schedule_plan_content h2 {
         margin-bottom: 5px;
+      
     }
     .schedule_plan_content p {
         margin-bottom: 8px;
