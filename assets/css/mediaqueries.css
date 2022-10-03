@@ -1406,8 +1406,7 @@
         background-color: var(--e-global-color-dark-cyan) !important; */
     }
     .navbar-nav .nav-item a:hover{
-        color: var(--e-global-color-white) !important;
-        background-color: var(--e-global-color-dark-cyan) !important;
+            color: var(--e-global-color-accent) !important;
     }
     .navbar-nav .dropdown-menu {
         box-shadow: none;
