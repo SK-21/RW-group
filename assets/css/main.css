@@ -546,6 +546,9 @@ p{
     top: 0;
     position: absolute;
 }
+.aboutus_section .abt-2 .aboutus_content {
+    padding-left: 26px;
+}
 .images_wrapper .img_to{
     right: -35px;
     top: 0;
