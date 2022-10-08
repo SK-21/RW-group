@@ -4,9 +4,10 @@
 html {
     scroll-behavior: smooth;
   }
+.service-sctn{
     background-image:
     linear-gradient(155deg, rgba(245,236,215, 0.53), rgba(235,218,168, 0.64)),
-url('../img/tx3.jpeg'); }
+    url('../img/tx3.jpeg');  }
 
 .btn_wrapper .getstarted_btn { 
 background-color: #0b0d29!important;}
