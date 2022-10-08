@@ -1,15 +1,20 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost:wght@400;500;600;700&family=Karla:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 html {
     scroll-behavior: smooth;
   }
 .service-sctn{
     background-image: url(https://html.designingmedia.com/instant-va/assets/images/services_background.jpg);
 }
+.btn_wrapper .aboutus_btn {
+    border: 1px solid #000e9fd4!important;
+}
+.btn_wrapper .getstarted_btn { 
+background-color: #0b0d29!important;}
 .mail-sect{ text-align:center;color: var(--e-global-color-secondary);line-height: 16px;
     font-size: 36px;}
-.mail-sect a{    font-family: 'Jost', sans-serif;
+.mail-sect a{    font-family: 'Inter', sans-serif;
     font-size: 36px;
     line-height: 50px;
     font-weight: 400;
@@ -204,7 +209,7 @@ bottom:5rem;
     color:#fff;
   }
 body {
-	font-family: 'Karla', sans-serif;
+	font-family: 'Inter', sans-serif;
 }
 :root {
     --e-global-color-primary: #0b0d29;
@@ -225,42 +230,42 @@ body {
     --e-global-color-moderate-cyan: #5cc3ce;
 }
 h1{
-    font-family: 'Jost', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 54px;
     line-height: 65px;
     font-weight: 700;
     color: var(--e-global-color-primary);
 }
 h2{
-    font-family: 'Jost', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 44px;
     line-height: 50px;
     font-weight: 700;
     color: var(--e-global-color-primary);
 }
 h3{
-    font-family: 'Jost', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 22px;
     line-height: 50px;
     font-weight: 700;
     color: var(--e-global-color-primary);
 }
 h4{
-    font-family: 'Jost', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 22px;
     line-height: 24px;
     color: var(--e-global-color-primary);
 }
 h5{
-    font-family: 'Jost', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     line-height: 25px;
     font-weight: 600;
     color: var(--e-global-color-primary);
 }
 h6{
-    font-family: 'Jost', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     line-height: 20px;
     font-weight: 400;
@@ -273,7 +278,7 @@ p{
     color: var(--e-global-color-text);
 }
 .sub_p{
-    font-family: 'Jost', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
@@ -291,10 +296,14 @@ p{
 /* Home Page Header Section Style */
 
 .hero-section{
-    background-image: linear-gradient(122deg, var(--e-global-color-light-grayish-cyan) 40%, var(--e-global-color-pale-orange) 100%); 
+/* background:linear-gradient(122deg, #ddbf9b 40%, var(--e-global-color-pale-orange) 100%); ; */
+   
+    background-image: url(../img/bg/bg2.jpeg);
+    /* background-image: linear-gradient(122deg, var(--e-global-color-light-grayish-cyan) 40%, var(--e-global-color-pale-orange) 100%);  */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    
 }
 .main_header {    
     padding: 46px 235px 0;
@@ -758,7 +767,7 @@ p{
     transform: translateY(-15px);
 }
 .our_process_box_content .process_box_heading{
-    font-family: 'Jost', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 22px;
     line-height: 28px;
     font-weight: 600;
@@ -768,7 +777,7 @@ p{
     display: block;
 }
 .our_process_box_content .process_box_number{
-    font-family: 'Jost', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 44px;
     line-height: 50px;
     font-weight: 700;
@@ -1105,7 +1114,7 @@ p{
     color: var(--e-global-color-white);
 }
 .testimonials_content p{
-    font-family: 'Jost', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 22px;
     line-height: 33px;
@@ -1115,7 +1124,7 @@ p{
     display: inline-block;
 }
 .testimonials_content .testimonials_name{
-    font-family: 'Jost', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;
@@ -1238,7 +1247,7 @@ p{
     margin-bottom: 15px;
 }
 .send_message_form_box_content input {
-    font-family: 'Karla', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
@@ -1259,7 +1268,7 @@ p{
     resize: none;
 }
 .send_message_form_box_content textarea {
-    font-family: 'Karla', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
@@ -1275,7 +1284,7 @@ textarea {
     overflow: auto;
 }
 .send_message_form_box_content button {
-    font-family: 'Karla', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 20px;
@@ -1323,7 +1332,7 @@ textarea {
     margin-top: 3px;
 }
 .sign_up_content span {
-    font-family: 'Jost', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     line-height: 20px;
     font-weight: 400;
@@ -1335,7 +1344,7 @@ textarea {
     margin-left: -21px;
 }
 .sign_up_form_content .upper_layer{
-    font-family: 'Karla', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
@@ -1596,7 +1605,7 @@ textarea {
     border-radius: 100%;
 }
 .about_box .rating {
-    font-family: 'Jost', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 54px;
     line-height: 50px;
@@ -1606,7 +1615,7 @@ textarea {
     top: -10px;
 }
 .about_box .plus_sign {
-    font-family: 'Jost', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 35px;
     line-height: 35px;
@@ -2083,7 +2092,7 @@ textarea {
     margin-bottom: 50px;
 }
 .error_content span {
-    font-family: 'Jost', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 300px;
     line-height: 65px;
