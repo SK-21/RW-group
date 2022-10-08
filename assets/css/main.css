@@ -296,6 +296,7 @@ p{
 /* Home Page Header Section Style */
 
 .hero-section{
+	   background-image: url(../img/texture-bg2.jpeg);
 /* background:linear-gradient(122deg, #ddbf9b 40%, var(--e-global-color-pale-orange) 100%); ; */
    
     background-image: url(../img/bg2.jpeg);
