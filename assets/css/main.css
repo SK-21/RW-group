@@ -27,6 +27,8 @@ background-color: #0b0d29!important;}
 	}
 .abt-4 .images_wrapper .img_one {
     left: 0%!important;
+}.aboutus_section .abt-2 .aboutus_content {
+    padding-left: 0!important;
 }}
 @media (min-width:992px){
     .choose_us_image h2{display:none;}
