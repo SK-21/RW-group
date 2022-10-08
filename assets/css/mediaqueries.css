@@ -51,7 +51,7 @@
 
         /* padding-top: 65px; */
         padding-bottom: 100px;
-       margin-bottom: 95px;
+        margin-bottom: 150px;
     }
     h1 {
         font-size: 44px;
@@ -2690,7 +2690,7 @@
     }
     .banner-section .banner-section-content {
         padding-top: 0px;
-        margin-bottom: 80px;
+        margin-bottom: 125px;
     }
     h1 {
         font-size: 24px;
@@ -3701,8 +3701,7 @@
         line-height: 42px;
     }
     .banner-section h1 {
-        padding-top: 59px;
-
+        padding-top:70px;
         margin-bottom: 8px;
     }
     .banner-section p {
