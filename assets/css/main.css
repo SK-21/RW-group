@@ -21,7 +21,13 @@ background-color: #0b0d29!important;}
     line-height: 50px;
     font-weight: 400;
     color: var(--e-global-color-secondary);margin-top:-10px;}
-
+@media (max-width:599px){
+.aboutus_section .abt-3 .images_wrapper {
+    right: 0px!important;
+	}
+.abt-4 .images_wrapper .img_one {
+    left: 0%!important;
+}}
 @media (min-width:992px){
     .choose_us_image h2{display:none;}
     .footer-section figure img{width:40%; background:#fff;}
