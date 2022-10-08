@@ -7,9 +7,7 @@ html {
 .service-sctn{
     background-image: url(https://html.designingmedia.com/instant-va/assets/images/services_background.jpg);
 }
-.btn_wrapper .aboutus_btn {
-    border: 1px solid #000e9fd4!important;
-}
+
 .btn_wrapper .getstarted_btn { 
 background-color: #0b0d29!important;}
 .mail-sect{ text-align:center;color: var(--e-global-color-secondary);line-height: 16px;
