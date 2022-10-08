@@ -549,6 +549,8 @@ p{
 .aboutus_section .abt-2 .aboutus_content {
     padding-left: 26px;
 }
+ .abt-4 .images_wrapper .img_one {
+        left: 27px;}
 .images_wrapper .img_to{
     right: -35px;
     top: 0;
