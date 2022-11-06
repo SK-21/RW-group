@@ -72,7 +72,10 @@ background-color: #0b0d29!important;}
 
 .img_to{right:0!important;}
 .d-mob-hide{display:none;}
-.r-reverse{flex-direction:column-reverse;}
+
+}
+@media (max-width:767px){
+    .r-reverse{flex-direction:column-reverse;}
 }
 @keyframes float {
 	0% {
@@ -2317,7 +2320,7 @@ textarea {
 
 .schedule_plan-section {
     padding-bottom: 140px;
-    padding-top: 30px;
+    padding-top: 87px;
 }
 .schedule_plan-section .schedule_plan_image{
     position: relative;
