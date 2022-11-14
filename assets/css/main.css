@@ -1,6 +1,28 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Raleway:wght@400;500;600;700;800;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;600;700;800;900&family=Montserrat:wght@400;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap'); */
+/*font-dependent*/
+@media(min-width:992px){
+    .aboutus_content {
+        padding-left: 5px!important;}
+        a.text-decoration-none.readmore_btn {
+            margin-top: 20px;
+        }
+        .abt-4 .images_wrapper .img_one {
+            left:0!important;
+        }
+        .middle-portion li a {
+            font-size: 17px!important;}
+            .service-sctn    .aboutus_content {
+                padding-top: 53px!important;
+                padding-left: 5px!important;}
+                .banner-section h1 {
+                    font-weight: 800;
+                    width: 83%!important;
+                }
+}
+
 html {
     scroll-behavior: smooth;
   }
@@ -16,7 +38,7 @@ html {
 background-color: #0b0d29!important;}
 .mail-sect{ text-align:center;color: var(--e-global-color-secondary);line-height: 16px;
     font-size: 36px;}
-.mail-sect a{    font-family: 'Inter', sans-serif;
+.mail-sect a{    font-family: 'Raleway', sans-serif;
     font-size: 36px;
     line-height: 50px;
     font-weight: 400;
@@ -222,7 +244,8 @@ bottom:5rem;
     color:#fff;
   }
 body {
-	font-family: 'Inter', sans-serif;
+	/* font-family: 'Inter', sans-serif; */
+   font-family: 'Raleway', sans-serif;
 }
 :root {
     --e-global-color-primary: #0b0d29;
@@ -243,42 +266,42 @@ body {
     --e-global-color-moderate-cyan: #5cc3ce;
 }
 h1{
-    font-family: 'Inter', sans-serif;
+   font-family: 'Raleway', sans-serif;
     font-size: 54px;
     line-height: 65px;
     font-weight: 700;
     color: var(--e-global-color-primary);
 }
 h2{
-    font-family: 'Inter', sans-serif;
+   font-family: 'Raleway', sans-serif;
     font-size: 44px;
     line-height: 50px;
     font-weight: 700;
     color: var(--e-global-color-primary);
 }
 h3{
-    font-family: 'Inter', sans-serif;
+   font-family: 'Raleway', sans-serif;
     font-size: 22px;
     line-height: 50px;
     font-weight: 700;
     color: var(--e-global-color-primary);
 }
 h4{
-    font-family: 'Inter', sans-serif;
+   font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 22px;
     line-height: 24px;
     color: var(--e-global-color-primary);
 }
 h5{
-    font-family: 'Inter', sans-serif;
+   font-family: 'Raleway', sans-serif;
     font-size: 20px;
     line-height: 25px;
     font-weight: 600;
     color: var(--e-global-color-primary);
 }
 h6{
-    font-family: 'Inter', sans-serif;
+   font-family: 'Raleway', sans-serif;
     font-size: 20px;
     line-height: 20px;
     font-weight: 400;
@@ -291,7 +314,7 @@ p{
     color: var(--e-global-color-text);
 }
 .sub_p{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
@@ -442,13 +465,15 @@ p{
     z-index:1000;
 }
 @media (min-width:992px){.banner-section h1{
-    font-size: 70px;
+    font-size: 80px;
     line-height: 87px;
-    margin-bottom: 50px!important;
+    margin-bottom: 20px!important;
         width: 76%;
     margin: auto;
     
-}}
+}.banner-section  
+h2 {
+    font-size: 44px; margin-bottom: 50px!important;}
 
 .banner-section p{
     font-weight: 400;
@@ -785,7 +810,7 @@ p{
     transform: translateY(-15px);
 }
 .our_process_box_content .process_box_heading{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 22px;
     line-height: 28px;
     font-weight: 600;
@@ -795,7 +820,7 @@ p{
     display: block;
 }
 .our_process_box_content .process_box_number{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 44px;
     line-height: 50px;
     font-weight: 700;
@@ -1132,7 +1157,7 @@ p{
     color: var(--e-global-color-white);
 }
 .testimonials_content p{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 22px;
     line-height: 33px;
@@ -1142,7 +1167,7 @@ p{
     display: inline-block;
 }
 .testimonials_content .testimonials_name{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;
@@ -1265,7 +1290,7 @@ p{
     margin-bottom: 15px;
 }
 .send_message_form_box_content input {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
@@ -1286,7 +1311,7 @@ p{
     resize: none;
 }
 .send_message_form_box_content textarea {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
@@ -1302,7 +1327,7 @@ textarea {
     overflow: auto;
 }
 .send_message_form_box_content button {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 20px;
@@ -1350,7 +1375,7 @@ textarea {
     margin-top: 3px;
 }
 .sign_up_content span {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
     line-height: 20px;
     font-weight: 400;
@@ -1362,7 +1387,7 @@ textarea {
     margin-left: -21px;
 }
 .sign_up_form_content .upper_layer{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
@@ -1623,7 +1648,7 @@ textarea {
     border-radius: 100%;
 }
 .about_box .rating {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 54px;
     line-height: 50px;
@@ -1633,7 +1658,7 @@ textarea {
     top: -10px;
 }
 .about_box .plus_sign {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 35px;
     line-height: 35px;
@@ -2110,7 +2135,7 @@ textarea {
     margin-bottom: 50px;
 }
 .error_content span {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 300px;
     line-height: 65px;

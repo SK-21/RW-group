@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'ABChanelPBRegularM';
+  src: url('ABChanelPBRegularM.svg#ABChanelPBRegularM') format('svg'),
+       url('ABChanelPBRegularM.ttf') format('truetype'),
+       url('ABChanelPBRegularM.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'abchanel-pb-regular-m-webfont.woff2';
+  src: url('abchanel-pb-regular-m-webfont.woff2.eot');
+  src: url('abchanel-pb-regular-m-webfont.woff2.eot?#iefix') format('embedded-opentype'),
+       url('abchanel-pb-regular-m-webfont.woff2.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
