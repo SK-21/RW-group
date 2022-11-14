@@ -467,7 +467,7 @@ p{
 
 @media screen and (max-width: 575px){
     .banner-section h2 {
-    font-size: 19px;
+        font-size: 17px;
     line-height: 29px;
     font-weight: 600;
 }
