@@ -2670,7 +2670,7 @@
         padding: 20px 20px 0;
     }
     .navbar-light .navbar-toggler-icon {
-        background: var(--e-global-color-dark-cyan);
+        background: #0b0d29;
         height: 2px;
         margin: 7px 0 0 0;
         width: 100%;
@@ -3689,10 +3689,11 @@
     .navbar-collapse {
         width: 60%;
     }
-    .navbar-brand img {
+    /* .navbar-brand img {
         width: 70px;
-    }
-
+    } */
+    .navbar-brand img {
+        width: 165px;}
     .banner-section {
         padding: 50px 10px 0;
     }

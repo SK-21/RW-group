@@ -466,6 +466,11 @@ p{
 }
 
 @media screen and (max-width: 575px){
+    .navbar-brand img {
+        width: 175px!important;
+    }
+    .banner-section h1 {
+        padding-top: 101px!important;}
     .banner-section h2 {
         font-size: 17px;
     line-height: 29px;
@@ -476,7 +481,11 @@ p{
     line-height: 50px;
     
 }}
-@media (min-width:992px){.banner-section h1{
+@media (min-width:992px){
+    .navbar-brand img {
+        width: 51%!important;
+    }
+    .banner-section h1{
     font-size: 80px;
     line-height: 87px;
     margin-bottom: 20px!important;
