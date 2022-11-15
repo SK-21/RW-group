@@ -464,8 +464,18 @@ p{
     position: relative;
     z-index:1000;
 }
-
+@media screen and (max-width: 991px){
+    .navbar-light .navbar-toggler-icon {
+        background: #0b0d29!important;}
+        .navbar-toggler {
+        z-index: 100;
+      }
+      .navbar-collapse {
+        top: 5px!important;}}
 @media screen and (max-width: 575px){
+    .navbar-collapse {
+        top: 5px!important;
+        width: 50%!important;}
     .navbar-brand img {
         width: 175px!important;
     }
