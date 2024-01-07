@@ -90,6 +90,9 @@ background-color: #0b0d29!important;}
     text-align: left!important;
 }
 }
+.hero-section {
+    min-height: 100vh;
+}
 @media (max-width:992px){
 
 .img_to{right:0!important;}
